@@ -1,9 +1,9 @@
 .side-panel {
   position: fixed;
-  right: -300px;
+  right: -400px;
   top: 0;
   bottom: 0;
-  width: 300px;
+  width: 400px;
   background-color: #f1f1f1;
   overflow-x: hidden;
   transition: 0.5s;
@@ -11,4 +11,8 @@
 
 .side-panel.visible {
   right: 0;
+}
+
+.debug {
+  outline: 1px solid red;
 }
